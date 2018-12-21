@@ -391,6 +391,9 @@ section#section_works .texts {
 #section_contact .mails .mailcover img {
   width: 110%;
 }
+#section_contact h5 {
+  font-size: 30px;
+}
 #section_contact p {
   margin-top: 20px;
   line-height: 20px;
