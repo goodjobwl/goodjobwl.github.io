@@ -225,7 +225,7 @@ section#section_sns h1.subtitle {
   color: #F7E9E3;
   font-size: 30px;
   padding: 10px 5px;
-  background-image: url("img/icon_titlebg.png");
+  background-image: url(https://raw.githubusercontent.com/goodjobwl/goodjobwl.github.io/master/img/icon_titlebg.png);
   background-size: 140px 55px;
   background-repeat: no-repeat;
 }
@@ -263,7 +263,7 @@ section#section_works .col-sm-12.subtitle_g h1.subtitle {
   color: #F7E9E3;
   font-size: 30px;
   padding: 10px 5px;
-  background-image: url("img/icon_titlebg.png");
+  background-image: url(https://raw.githubusercontent.com/goodjobwl/goodjobwl.github.io/master/img/icon_titlebg.png);
   background-size: 140px 55px;
   background-repeat: no-repeat;
 }
