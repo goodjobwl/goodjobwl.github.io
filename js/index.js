@@ -38,20 +38,20 @@ $(window).mousemove(function(evt){
     var rabbitplace = $("#rabbit").offset().left +$("#rabbit").width()/2;
     var rabbittop = $("#rabbit").offset().top;
     if(pagex < rabbitplace-50){
-      $("#rabbit").attr("src","https://lh3.google.com/u/1/d/1hcLDaWicWr2bseAOWZhCz5R16FoeHRzE=w1171-h868-iv1");
+      $("#rabbit").attr("src","https://raw.githubusercontent.com/goodjobwl/goodjobwl.github.io/master/img/rabbbit_left.png");
     }
     else if(pagex > rabbitplace+50){
-      $("#rabbit").attr("src","https://lh3.google.com/u/1/d/183H0uj_lYF68rA7hkFzn2ijbMY7zSp_o=w1171-h868-iv1");
+      $("#rabbit").attr("src","https://raw.githubusercontent.com/goodjobwl/goodjobwl.github.io/master/img/rabbbit_right.png");
     }
     else{
-       $("#rabbit").attr("src","https://lh3.google.com/u/1/d/1XMNblmJ1Q0sldn3WSLQeMtyMwuGU5mL3=w1171-h868-iv1");
+       $("#rabbit").attr("src","https://raw.githubusercontent.com/goodjobwl/goodjobwl.github.io/master/img/rabbbit_top.png");
     }
 
     if(pagex < rabbitplace-50 && pagey < rabbittop){
-      $("#rabbit").attr("src","https://lh3.google.com/u/1/d/1F9GDmX10SEH53pl578j8FZQmowloP-48=w1171-h868-iv1");
+      $("#rabbit").attr("src","https://raw.githubusercontent.com/goodjobwl/goodjobwl.github.io/master/img/rabbbit_lefttop.png");
     }
     if(pagex > rabbitplace+50 && pagey < rabbittop){
-      $("#rabbit").attr("src","https://lh3.google.com/u/1/d/15cMk6t4C86M-_Ew4w4KkV3eUNPMt3CgJ=w1171-h868-iv1");
+      $("#rabbit").attr("src","https://raw.githubusercontent.com/goodjobwl/goodjobwl.github.io/master/img/rabbbit_righttop.png");
     }
 
     //bear
